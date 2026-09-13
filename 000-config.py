@@ -1,6 +1,9 @@
 # TODO set config values
 
-num_pages = 592
+# NOTE the first 4 pages were moved to the back
+# to fix the page numbers of all other pages
+# so the original "page 1" is now page 277, etc
+num_pages = 276 + 4
 
 color_pages = []
 
@@ -14,12 +17,12 @@ max_scan_width_mm = 215.88
 max_scan_height_mm = 355.567
 
 # physical page size (before unbinding)
-page_width_mm = 124
-page_height_mm = 190
+page_width_mm = 130
+page_height_mm = 208
 
 # physical page width after unbinding
 # unbinding removes a small strip (about 5 mm width) from the inside edge
-unbinded_page_width_mm = page_width_mm - 5 # 5 mm width was removed
+unbinded_page_width_mm = 126
 
 # TODO use 4 unbinded widths:
 # 1. top width of the first page
@@ -27,10 +30,10 @@ unbinded_page_width_mm = page_width_mm - 5 # 5 mm width was removed
 # 3. bottom width of the first page
 # 4. bottom width of the last page
 # for simplicity, we can assume linear gradients between these widths
-unbinded_page_width_front_top_mm = unbinded_page_width_mm + 0
-unbinded_page_width_front_bottom_mm = unbinded_page_width_mm + 0
-unbinded_page_width_back_top_mm = unbinded_page_width_mm + 0
-unbinded_page_width_back_bottom_mm = unbinded_page_width_mm + 0
+unbinded_page_width_front_top_mm = 127
+unbinded_page_width_front_bottom_mm = 128
+unbinded_page_width_back_top_mm = 124
+unbinded_page_width_back_bottom_mm = 125
 
 # which physical page edge is fed first into the document scanner?
 # that edge becomes the scan top edge
@@ -175,8 +178,8 @@ image_viewer = "feh"
 
 fill_white_pages_lightness_file = "0683-lightness.txt"
 
-# 099.999270 325.tiff # white
-# 099.792250 001.tiff # non-white
+# 099.998329 280.tiff # white
+# 097.523124 088.tiff # text
 fill_white_pages_white_lightness_threshold = 99.99 / 100 # 99.99%
 
 

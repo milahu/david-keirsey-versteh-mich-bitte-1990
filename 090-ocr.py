@@ -24,6 +24,9 @@ src = "0663-level"
 src = "070-deskew"
 src = "072-deskew-fix-page-size"
 
+# no need to deskew
+src = "0663-level"
+
 # destination directory
 dst = Path(Path(__file__).stem)
 

@@ -79,28 +79,56 @@ args += [
     "--text-format", "html",
     # TODO? move these config items to 000-config.py
     "--doc-modified", doc_modified,
-]
-
-
-todo_args = [
-    "--doc-title", "",
-    "--doc-subtitle", "",
+    "--doc-title", "Versteh Mich Bitte",
+    "--doc-subtitle", "Charakter- und Temperament-Typen",
     # "--doc-subject", "",
-    "--doc-date", "2025",
-    "--doc-edition", "1",
-    "--doc-extent", "123 pages",
-    "--color-image-pages", "124,125",
-    "--doc-author", "",
+    "--doc-date", "1990-07-01",
+    "--doc-edition", "1", # TODO
+    "--doc-extent", "276 pages", # NOTE actually 280 pages
+    "--color-image-pages", "281,282",
+    "--doc-author", "David Keirsey",
+    "--doc-author", "Marilyn Bates",
     # "--doc-introducer", "",
     # "--doc-contributor", "",
     # "--doc-translator", "",
-    "--doc-publisher", "",
+    "--doc-publisher", "Prometheus Books",
     "--doc-language", "de", # german
     # "--doc-language", "en", # english
-    "--doc-isbn", "0000000000000",
-    "--doc-cover-image", "072-deskew-fix-page-size/999.tiff",
-    "--canonical-url-base", "https://TODO_REPO_OWNER_USERNAME.github.io/TODO_REPO_NAME/",
+    "--doc-isbn", "9780960695447",
+    "--doc-cover-image", "0663-level/281.tiff",
+    "--canonical-url-base", "https://milahu.github.io/david-keirsey-versteh-mich-bitte-1990/",
     "--doc-description", """
+Finden Sie Ihren Stil
+
+Beginnen Sie mit dem Ausfüllen des Fragebogens auf Seite 6.
+Verschaffen Sie sich dann ein eigenes Bild (S. 221-273).
+Vielleicht werden Sie auch Spaß daran haben,
+mit Ihrer Frau, den Kindern oder Freunden über Ihre Unterschiede sprechen.
+
+Die Autoren sind Ausbilder von Therapeuten und Diagnostikern für Verhaltensstörungen
+an der California State University (Fullerton Campus).
+Unzufrieden mit der Maturitätstheorie eines Freud, Maslow, Erickson, Sheehey, Levinson und anderer,
+bestehen sie darauf, daß nicht jeder die gleichen Wachstumsphasen zur Reife durchläuft.
+"Man kann eine oder zwei Identitätskrisen haben —
+aber ich will keine, habe keine und kann keine haben.
+Der Grund hierfür ist nicht, daß ich in meiner Entwicklung zurückgeblieben
+oder in einem unreifen Stadium, einer Übergangsphase
+oder einer bestimmten Zeit meines Lebens stehengeblieben bin.
+Für mich ticken die Uhren anders."
+
+Professor Keirsey ist seit langen Jahren klinischer Psychologe
+und gehört der Schule der Gestaltpsychologie an.
+Nachdem er 10 Jahre lang Hunderte von Problemen
+in Zusammenhang mit Erziehung, Elternschaft, Ehe und Unternehmensführung behandelt hat,
+fordert Dr. Keirsey jetzt den Leser zur "Abkehr vom Pygmalion-Projekt" auf,
+jenem nie endenden, vergeblichen Versuch,
+den Anderen in eine getreue Kopie des eigenen Ichs umzuformen.
+"Es ist ganz richtig," meint er, "einen völlig gegensätzlichen Partner zu heiraten
+und Kinder zu zeugen, die aus ganz anderem Holz geschnitzt sind:
+dagegen ist es keinesfalls richtig,
+Ehe und Elternschaft als Freibrief aufzufassen,
+der es gestattet, den Ehepartner und die Kinder nach dem Muster des eigenen Ichs zu modellieren.
+Legen Sie Ihren Meissel hin! Lassen Sie es gut sein: Freuen Sie sich darüber!"
 """,
 ]
 
